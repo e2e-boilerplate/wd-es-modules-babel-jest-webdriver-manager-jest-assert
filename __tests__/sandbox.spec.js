@@ -1,4 +1,5 @@
 const wd = require("wd");
+const { strictEqual } = require("assert");
 const config = require("../config");
 
 const url = "https://e2e-boilerplate.github.io/sandbox/";
@@ -17,11 +18,11 @@ describe("Sandbox", () => {
 
   it("should be on Sandbox", async () => {
     const title = await browser.title();
-    expect(title).toEqual("Sandbox");
+    strictEqual(title, "Sandbox");
   });
 
   it("should have a page header", async () => {
     const header = await browser.elementByTagName("h1").text();
-    expect(header).toEqual("Sandbox");
+    strictEqual(title, "Sandbox");
   });
 });
