@@ -1,7 +1,7 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/wd-es-modules-babel-jest-webdriver-manager-jest-expect/issues"
+    "url": "https://github.com/e2e-boilerplate/wd-es-modules-babel-jest-webdriver-manager-jest-assert/issues"
   },
   "dependencies": {
     "chai-as-promised": "7.1.1",
@@ -9,7 +9,7 @@
     "wd": "1.12.1",
     "webdriver-manager": "12.1.7"
   },
-  "description": "WD end-to-end test automation boilerplate. Using ES Modules, Babel, Webdriver-Manager, Jest and Expect.",
+  "description": "WD end-to-end test automation boilerplate. Using ES Modules, Babel, Webdriver-Manager, Jest and Assert.",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
@@ -28,19 +28,19 @@
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/wd-es-modules-babel-jest-webdriver-manager-jest-expect#readme",
+  "homepage": "https://github.com/e2e-boilerplate/wd-es-modules-babel-jest-webdriver-manager-jest-assert#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
     }
   },
   "keywords": [
+    "assert",
     "babel",
     "boilerplate",
     "e2e",
     "e2e tests",
     "example",
-    "expect",
     "integration test",
     "jest",
     "ts-jest",
@@ -53,10 +53,10 @@
       "prettier --write"
     ]
   },
-  "name": "wd-es-modules-babel-jest-webdriver-manager-jest-expect",
+  "name": "wd-es-modules-babel-jest-webdriver-manager-jest-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/wd-es-modules-babel-jest-webdriver-manager-jest-expect.git"
+    "url": "git+https://github.com/e2e-boilerplate/wd-es-modules-babel-jest-webdriver-manager-jest-assert.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",

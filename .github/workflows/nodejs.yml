@@ -1,8 +1,8 @@
-name: wd-es-modules-babel-jest-webdriver-manager-jest-expect
+name: wd-es-modules-babel-jest-webdriver-manager-jest-assert
 'on':
   push: null
   schedule:
-    - cron: 40 4 1-31/2 * *
+    - cron: 50 2 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
