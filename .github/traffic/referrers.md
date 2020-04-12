@@ -1,3 +1,2 @@
-| referrer   | count | uniques |
-| :--------- | :---- | :------ |
-| github.com | 6     | 1       |
+| referrer | count | uniques |
+| :------- | :---- | :------ |
