@@ -23,6 +23,6 @@ describe("Sandbox", () => {
 
   it("should have a page header", async () => {
     const header = await browser.elementByTagName("h1").text();
-    strictEqual(title, "Sandbox");
+    strictEqual(header, "Sandbox");
   });
 });
