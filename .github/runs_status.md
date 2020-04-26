@@ -1,3 +1,0 @@
-| No  | Date           | Build                                                                                                                                                                                 |
-| :-- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | 09/04/20 22:13 | [![Conclusion](https://img.shields.io/badge/build-pass-brightgreen)](https://github.com/e2e-boilerplate/wd-es-modules-babel-jest-webdriver-manager-jest-expect/actions/runs/74918526) |
