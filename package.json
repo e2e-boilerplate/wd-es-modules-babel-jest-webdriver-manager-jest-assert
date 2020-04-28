@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "chai-as-promised": "7.1.1",
-    "jest": "25.4.0",
+    "jest": "25.5.0",
     "wd": "1.12.1",
     "webdriver-manager": "12.1.7"
   },
@@ -17,7 +17,7 @@
     "@babel/preset-env": "7.9.5",
     "@babel/register": "7.9.0",
     "@babel/runtime": "7.9.2",
-    "babel-jest": "25.4.0",
+    "babel-jest": "25.5.0",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "6.11.0",
